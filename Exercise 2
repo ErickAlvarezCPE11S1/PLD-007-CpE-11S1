@@ -1,9 +1,11 @@
-#include <Iostream>
+#include <iostream>
 
 using namespace std;
 
 int main(){
-int num1,num2,average,sum,difference,product,quotient,remainder;
+int num1,num2,average,sum,difference,product,remainder;
+float quotient;
+
 		cout<<"BASIC CALCULATOR"<< endl<<"\n\n";
 	
 			cout<<"Please type your first number: ";
@@ -16,7 +18,7 @@ int num1,num2,average,sum,difference,product,quotient,remainder;
 			sum = num1+num2;
 			difference = num1-num2;
 			product = num1*num2;
-			quotient = num1/num2;
+			quotient = (float)num1/num2;
 			remainder = num1%num2;
 			
 			cout<<"Your average is: "<< average<<endl;
