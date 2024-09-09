@@ -1,3 +1,7 @@
+#include <Iostream>
+
+using namespace std;
+
 void intro(){
 	string name;
 	cout<< "Please type your Surname: ";
