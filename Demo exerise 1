@@ -1,22 +1,8 @@
 #include <Iostream>
 
 using namespace std;
-
-void intro(){
-	string name;
-	cout<< "Please type your Surname: ";
-	cin>>name;
-	cout<<"Hello, "<< name<< endl;
-	
-}
-
-int mid(){
-	string calc = "calculator";
-	string in;
-	cout << "Please type the code (calculator): ";
-	cin >> in;
-	if (in == "calculator"){
-			float num1,num2,num3,num4,num5,average,sum,difference,product,quotient;
+int main(){
+float num1,num2,num3,num4,num5,average,sum,difference,product,quotient;
 			
 		cout<<"\n\n"<<"BASIC CALCULATOR"<< endl<<"\n\n";
 	
@@ -43,15 +29,6 @@ int mid(){
 			cout << "Your product is: "<< product<<endl;
 			cout << "Your quotient is: " << quotient;
 	
-	}else{
-cout << "Invalid code";		
-	}
-	return 0;
-}
-
-int main(){
-intro();
-mid();
 
 return 0;
 }
