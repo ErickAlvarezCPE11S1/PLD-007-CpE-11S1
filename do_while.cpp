@@ -5,7 +5,7 @@ int main(){
 	
 int i=0;
 do{
-	cout << "Value of i is "<<i<<endl;
+	cout << "Hello "<<i<<endl;
 	i++;
 }
 while (i<=10&&i>=0);
